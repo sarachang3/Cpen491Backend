@@ -1,0 +1,12 @@
+[console_scripts]
+MultiYearX = rex.resource_extraction.multi_year_resource_cli:main
+NSRDBX = rex.resource_extraction.nsrdb_cli:main
+US-wave = rex.resource_extraction.US_wave_cli:main
+WINDX = rex.resource_extraction.wind_cli:main
+WaveX = rex.resource_extraction.wave_cli:main
+combine-h5 = rex.rechunk_h5.combine_h5_cli:main
+rechunk = rex.rechunk_h5.rechunk_cli:main
+rex = rex.resource_extraction.resource_cli:main
+temporal-stats = rex.temporal_stats.temporal_stats_cli:main
+wind-rose = rex.joint_pd.wind_rose_cli:main
+
